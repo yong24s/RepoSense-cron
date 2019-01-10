@@ -1,6 +1,6 @@
-matrix:
-  include:
-    - os: linux
+language: minimal
+
+os: linux
 
 script:
   - curl -X POST -d {} https://api.netlify.com/build_hooks/5c36c98996325495b12bdf56 
